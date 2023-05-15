@@ -1,9 +1,19 @@
 :root {
-    --theme-bg-color: coral;
-    --container-color: #44cde8;
+    --theme-bg-color: #faefe1;
+    --container-color: #333333;
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../src/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('../src/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 body {
     margin: 0;
     background-color: var(--theme-bg-color);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--container-color);
 }
